@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "react-router-dom": "^6.28.0"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "autoprefixer": "^10.4.20",
+    "ethers": "^5.7.2",
+    "nodemon": "^3.1.7",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  }
+}
