@@ -1,0 +1,44 @@
+.dashboard-container {
+  background: #f9fafb;
+  padding: 2rem;
+  margin-top: 80px; /* Margin to make space for the fixed navbar */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content */
+  text-align: center;
+}
+
+.dashboard-header {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #3b82f6;
+  margin-bottom: 1.5rem;
+}
+
+.dashboard-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem; /* Add some space between buttons */
+  margin-top: 2rem;
+}
+
+.dashboard-buttons button {
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background: #3b82f6;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+.dashboard-buttons button:hover {
+  background: #2563eb;
+}
+
+.dashboard p {
+  font-size: 1rem;
+  color: #374151;
+  margin-top: 1rem;
+}

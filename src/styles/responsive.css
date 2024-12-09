@@ -1,0 +1,30 @@
+/* Mobile-first design is default; write media queries for larger screens */
+
+@media (min-width: 768px) {
+    .navbar-container {
+      padding: 1rem 2rem;
+    }
+  
+    .dashboard-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .credential-form {
+      max-width: 600px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .navbar-title {
+      font-size: 2rem;
+    }
+  
+    .hero-title {
+      font-size: 4rem;
+    }
+  
+    .dashboard-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  

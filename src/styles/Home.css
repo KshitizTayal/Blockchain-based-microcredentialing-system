@@ -1,0 +1,98 @@
+/* Home page background and layout with frosted glass effect */
+.home-container {
+  background: linear-gradient(to right, #3b82f6, #9333ea); /* Gradient background */
+  color: white;
+  min-height: 100vh; /* Ensures the background covers the full height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Center-aligns the content horizontally */
+  flex-direction: column; /* Align the content vertically */
+  background-color: #f8fafc; /* Light background color to provide contrast */
+  padding-bottom: 100px; /* Space for footer */
+}
+
+/* Content box with frosted glass effect for main section */
+.home-content {
+  max-width: 800px;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.1); /* Glass effect with transparency */
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+  backdrop-filter: blur(10px); /* Frosted glass effect */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  color: #ffffff; /* White text to contrast the background */
+  text-align: center;
+}
+
+.home-content h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #ffffff; /* White title for contrast */
+  margin-bottom: 1rem;
+  padding-top: 2rem; /* Adds space on top */
+}
+
+.home-content p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+  color: #f1f5f9; /* Light text for readability */
+}
+
+/* Text boxes (benefits of the platform, such as transparency, security, etc.) */
+.analytics-boxes {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem; /* Increased gap for better spacing */
+  margin-top: 2rem;
+  padding: 0 1rem;
+}
+
+.analytics-box {
+  background: rgba(255, 255, 255, 0.2); /* Glass effect */
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  backdrop-filter: blur(10px);
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: transform 0.3s ease;
+}
+
+.analytics-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.analytics-box h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #3b82f6;
+  margin-bottom: 1rem;
+}
+
+/* Footer styling */
+footer {
+  background: #1d4ed8; /* Contrasting dark blue background for footer */
+  color: white;
+  padding: 1rem 2rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  margin-top: auto; /* Ensures the footer sticks to the bottom */
+}
+
+footer p {
+  margin: 0;
+  color: #e2e8f0; /* Light grey for text in footer */
+}
+
+/* Ensures navbar buttons are correctly spaced */
+.navbar-right button {
+  margin-right: 15px;
+}
