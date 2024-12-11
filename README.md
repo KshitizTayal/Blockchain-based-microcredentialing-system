@@ -31,7 +31,7 @@ This repository contains the source code for a Blockchain-based Micro-Credential
 
 - **Frontend**
 
-  - **Technologies:** React.js, HTML, CSS, JavaScript
+  - **Technologies:** React.js, HTML, CSS, JavaScript, Express.js
 
   - **Styling:** Bootstrap 5 for responsive design
 
