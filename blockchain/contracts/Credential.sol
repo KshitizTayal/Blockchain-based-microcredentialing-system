@@ -11,7 +11,7 @@ contract Credential {
 
     // Mapping to store credentials by their unique hash
     mapping(string => CredentialData) public credentials;
-
+// this is the solidity file
     // Event to emit credential issuance
     event CredentialIssued(string indexed hash, string studentName, string course, string institution, uint256 issueDate);
 
