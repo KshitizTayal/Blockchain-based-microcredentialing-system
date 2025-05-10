@@ -10,7 +10,7 @@ import Dashboard from "./components/Dashboard";
 import CredentialForm from "./components/CredentialForm";
 import RetrieveCredential from "./components/RetrieveCredential";
 import Benefits from "./pages/Benefits"; // New Benefits page
-
+// main react page
 function App() {
   return (
     <GoogleOAuthProvider clientId="556900109492-mf9v67pd8j8jmb7cs0vk9v34uiutt24m.apps.googleusercontent.com">
